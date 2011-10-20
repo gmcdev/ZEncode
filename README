@@ -1,0 +1,15 @@
+#####################################################################################
+#
+#   ZEncode - AIR application to install and provide a simple interface for
+#	encoding h.264 videos with FFMPEG
+#
+#   by Greg Connell for Red Interactive 2011
+#
+#	 - this was written for Mac 0SX, assumes python and Xcode are installed
+#	 - absolutely no gaurantees it will work for you, meant only to be an 
+#		internal utility for the company
+#	 - that said, if the initial install fails, you might want to try running
+#		the python install_ffmpeg.py script from a shell
+#
+#####################################################################################
+
