@@ -20,7 +20,7 @@
 	</name>
 	-->
 	<copyright></copyright>
-	<supportedProfiles>extendedDesktop</supportedProfiles	>
+	<supportedProfiles>extendedDesktop</supportedProfiles>
 	<initialWindow>
 		<content>ZEncode.swf</content>
 		<systemChrome>standard</systemChrome>

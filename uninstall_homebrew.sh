@@ -24,3 +24,6 @@ test -d Library/LinkedKegs && rm -r Library/LinkedKegs
 rmdir -p bin Library share/man/man1 2> /dev/null
 rm -rf .git
 rm -rf ~/Library/Caches/Homebrew
+cd /usr/local/
+rm .gitignore
+rm -rf *
