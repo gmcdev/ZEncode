@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zencode>
+	<settings>
+		<!-- encoding codec -->
+		<setting>
+			<control>vcodec</control>
+			<value>libx264</value>
+		</setting>
+		
+		<!-- framerate -->
+		<setting>
+			<control>r</control>
+			<value>24</value>
+		</setting>
+		
+		<!-- qcomp -->
+		<setting>
+			<control>qcomp</control>
+			<value>1</value>
+		</setting>
+		
+		<!-- b_strategy -->
+		<setting>
+			<control>b_strategy</control>
+			<value>2</value>
+		</setting>
+		
+		<!-- subq -->
+		<setting>
+			<control>subq</control>
+			<value>7</value>
+		</setting>
+		
+	</settings>
+</zencode>
