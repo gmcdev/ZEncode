@@ -1,9 +1,9 @@
 <?xml version ="1.0" encoding="utf-8" ?>
 <application xmlns="http://ns.adobe.com/air/application/2.0">
 	<id>ZEncode</id>
-	<version>1.5</version>
+	<version>2.0</version>
 	<filename>ZEncode</filename>
-	<description></description>
+	<description>To test compile this bad bitch, select only "extendedDesktop".  To publish, select "desktop" and "extendedDesktop" and make sure to install the .dmg, as the .air will fail to support NativeProcess.</description>
 	<!-- To localize the description, use the following format for the description element.
 	<description>
 		<text xml:lang="en">English App description goes here</text>
@@ -20,7 +20,6 @@
 	</name>
 	-->
 	<copyright></copyright>
-	<supportedProfiles>desktop extendedDesktop</supportedProfiles>
 	<initialWindow>
 		<content>ZEncode.swf</content>
 		<systemChrome>standard</systemChrome>
@@ -30,9 +29,17 @@
 		<autoOrients>false</autoOrients>
 		<aspectRatio>portrait</aspectRatio>
 		<renderMode>auto</renderMode>
-	<maximizable>true</maximizable><minimizable>true</minimizable><resizable>true</resizable></initialWindow>
+		<maximizable>true</maximizable>
+		<minimizable>true</minimizable>
+		<resizable>false</resizable>
+	</initialWindow>
 	<customUpdateUI>false</customUpdateUI>
 	<allowBrowserInvocation>false</allowBrowserInvocation>
 	<icon>
-	<image16x16>assets/icon_16.png</image16x16><image32x32>assets/icon_32.png</image32x32><image48x48>assets/icon_48.png</image48x48><image128x128>assets/icon_128.png</image128x128></icon>
+		<image16x16>assets/icon_16.png</image16x16>
+		<image32x32>assets/icon_32.png</image32x32>
+		<image48x48>assets/icon_48.png</image48x48>
+		<image128x128>assets/icon_128.png</image128x128>
+	</icon>
+	<supportedProfiles>extendedDesktop</supportedProfiles>
 </application>
